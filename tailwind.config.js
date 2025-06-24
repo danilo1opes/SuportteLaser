@@ -6,7 +6,18 @@ module.exports = {
     './src/components/**/*.{ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nunito: ['Nunito', 'sans-serif'],
+        libre: ['Libre Baskerville', 'serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+      colors: {
+        brands: {
+          mainBg: '#f5f5f5',
+        },
+      },
+    },
   },
   plugins: [],
 };
