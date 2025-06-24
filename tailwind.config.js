@@ -15,6 +15,9 @@ module.exports = {
       colors: {
         brands: {
           mainBg: '#f5f5f5',
+          primary: '#000',
+          secundary: '#fff',
+          gray: '#374151',
         },
       },
     },
