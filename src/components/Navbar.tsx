@@ -13,7 +13,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-gray-900 via-gray-800 to-brand-primary shadow-2xl">
+    <nav className="relative z-30 bg-gradient-to-r from-gray-900 via-gray-800 to-black">
       <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         <div className="flex-shrink-0">
           <Image
@@ -105,6 +105,9 @@ export function Navbar() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="px-12">
+        <div className="h-px w-full bg-gray-700/40" />
       </div>
     </nav>
   );
