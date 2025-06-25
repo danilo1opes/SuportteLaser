@@ -3,8 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { CiMenuBurger } from 'react-icons/ci';
-import { IoCloseOutline } from 'react-icons/io5';
+import { Menu, X } from 'lucide-react';
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,32 +13,34 @@ export function Navbar() {
   };
 
   return (
-    <nav className="bg-brands-mainBg px-6 py-2 max-w-full mx-auto">
-      <div className="flex items-center justify-between">
+    <nav className="bg-gradient-to-r from-gray-900 via-gray-800 to-brand-primary shadow-2xl">
+      <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         <div className="flex-shrink-0">
           <Image
             src="icon/suportte.svg"
             alt="Suportte Laser"
             width={200}
             height={50}
-            className="w-36 h-auto md:w-48"
+            className="w-40 h-auto md:w-48 lg:w-52 brightness-0 invert"
           />
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:block">
-          <ul className="flex items-center gap-6 tracking-widest font-light font-nunito">
+          <ul className="flex items-center gap-8 tracking-wide font-light">
             <li>
               <Link href="/" scroll={true}>
-                <span className="cursor-pointer text-brands-primary hover:text-brands-gray border-b border-transparent hover:border-brands-primary transition-all duration-300">
+                <span className="cursor-pointer text-brand-softGray hover:text-brand-brandGold transition-all duration-300 text-base relative group">
                   Produtos
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-brandGold transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </Link>
             </li>
             <li>
               <Link href="/" scroll={true}>
-                <span className="cursor-pointer text-brands-primary hover:text-brands-gray border-b border-transparent hover:border-brands-primary transition-all duration-300">
+                <span className="cursor-pointer text-brand-softGray hover:text-brand-brandGold transition-all duration-300 text-base relative group">
                   Linha Feminina
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-brandGold transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </Link>
             </li>
@@ -50,10 +51,10 @@ export function Navbar() {
         <div className="md:hidden">
           <button
             onClick={toggleMobileMenu}
-            className="text-brands-primary hover:text-brands-gray transition-colors duration-300 p-2 rounded-lg hover:bg-brands-primary/10"
+            className="text-brand-softGray hover:text-brand-brandGold transition-colors duration-300 p-2 rounded-lg hover:bg-brand-secundary/10"
           >
             <div className="relative w-6 h-6">
-              <CiMenuBurger
+              <Menu
                 size={24}
                 className={`absolute inset-0 transition-all duration-300 ease-in-out ${
                   isMobileMenuOpen
@@ -61,7 +62,7 @@ export function Navbar() {
                     : 'opacity-100 rotate-0 scale-100'
                 }`}
               />
-              <IoCloseOutline
+              <X
                 size={24}
                 className={`absolute inset-0 transition-all duration-300 ease-in-out ${
                   isMobileMenuOpen
@@ -80,12 +81,12 @@ export function Navbar() {
           isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
-        <div className="mt-4 pb-4">
-          <ul className="flex flex-col space-y-4 tracking-widest font-light font-nunito">
+        <div className="px-6 py-4 bg-brands-primary/50 backdrop-blur-sm border-t border-brand-gray">
+          <ul className="flex flex-col space-y-4 font-light">
             <li>
               <Link href="/" scroll={true}>
                 <span
-                  className="block cursor-pointer text-brands-primary hover:text-brands-gray py-2 relative hover:bg-brands-primary/5 px-2 rounded transition-all duration-300"
+                  className="block cursor-pointer text-brand-softGray hover:bg-brand-brandGold py-3 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Produtos
@@ -95,7 +96,7 @@ export function Navbar() {
             <li>
               <Link href="/" scroll={true}>
                 <span
-                  className="block cursor-pointer text-brands-primary hover:text-brands-gray py-2 relative hover:bg-brands-primary/5 px-2 rounded transition-all duration-300"
+                  className="block cursor-pointer text-brand-softGray hover:text-brand-brandGold py-3 px-4 rounded-lg hover:bg-brand-secundary/10 transition-all duration-300"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Linha Feminina

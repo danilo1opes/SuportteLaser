@@ -13,11 +13,13 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        brands: {
+        brand: {
           mainBg: '#f5f5f5',
           primary: '#000',
           secundary: '#fff',
           gray: '#374151',
+          softGray: '#D1D5DB',
+          brandGold: '#FACC15',
         },
       },
     },
