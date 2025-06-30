@@ -1,0 +1,399 @@
+{
+  "categories": [
+    {
+      "id": "churrasco",
+      "name": "Churrasco",
+      "image": "/img/categories/churrasco.svg",
+      "href": "/produtos/churrasco"
+    },
+    {
+      "id": "canivetes",
+      "name": "Canivetes",
+      "image": "/img/categories/canivetes.svg",
+      "href": "/produtos/canivetes"
+    },
+    {
+      "id": "squeezes",
+      "name": "Squeezes",
+      "image": "/img/categories/kits.svg",
+      "href": "/produtos/kits"
+    },
+    {
+      "id": "mochila",
+      "name": "Mochila",
+      "image": "/img/categories/mochila.svg",
+      "href": "/produtos/mochila"
+    },
+    {
+      "id": "queijos",
+      "name": "Queijos",
+      "image": "/img/categories/quejio.svg",
+      "href": "/produtos/queijos"
+    },
+    {
+      "id": "canecas",
+      "name": "Canecas",
+      "image": "/img/categories/canecas.svg",
+      "href": "/produtos/canecas"
+    },
+    {
+      "id": "feminina",
+      "name": "Feminina",
+      "image": "/img/categories/feminina.svg",
+      "href": "/produtos/feminina"
+    },
+    {
+      "id": "agenda",
+      "name": "Agenda & Canetas",
+      "image": "/img/categories/canetas.svg",
+      "href": "/produtos/agenda-canetas"
+    }
+  ],
+  "products": {
+    "churrasco": [
+      {
+        "id": 1,
+        "nome": "Kit Churrasco 3 peças",
+        "preco": "R$ 280,00",
+        "imagem": "/img/churrasco/3pecas.png",
+        "descricao": "Kit completo para churrasco com facas, garfos e acessórios premium personalizados"
+      },
+      {
+        "id": 2,
+        "nome": "Kit Churrasco 4 peças",
+        "preco": "R$ 120,00",
+        "imagem": "/img/churrasco/4pecas.png",
+        "descricao": "Faca profissional para churrasco com personalização a laser"
+      },
+      {
+        "id": 3,
+        "nome": "Kit Churrasco 4 peças Madeira",
+        "preco": "R$ 85,00",
+        "imagem": "/img/churrasco/4madeira.png",
+        "descricao": "Garfo trinchante em aço inox com cabo em madeira personalizado"
+      },
+      {
+        "id": 4,
+        "nome": "Kit Pantera",
+        "preco": "R$ 45,00",
+        "imagem": "/img/churrasco/pantera2.png",
+        "descricao": "Espeto em aço inox com cabo personalizado a laser"
+      },
+      {
+        "id": 5,
+        "nome": "Kit Churrasco 2 Peças",
+        "preco": "R$ 45,00",
+        "imagem": "/img/churrasco/2pecas.png",
+        "descricao": "Espeto em aço inox com cabo personalizado a laser"
+      },
+      {
+        "id": 6,
+        "nome": "Kit 3 peças Churrasco - Faca 9 polegadas",
+        "preco": "R$ 45,00",
+        "imagem": "/img/churrasco/polegadas.png",
+        "descricao": "Espeto em aço inox com cabo personalizado a laser"
+      }
+    ],
+    "canivetes": [
+      {
+        "id": 1,
+        "nome": "Canivete Premium Inox",
+        "preco": "R$ 95,00",
+        "imagem": "/img/canivetes/premium.png",
+        "descricao": "Canivete suíço multifuncional com gravação personalizada"
+      },
+      {
+        "id": 2,
+        "nome": "Canivete Sport",
+        "preco": "R$ 150,00",
+        "imagem": "/img/canivetes/sport.png",
+        "descricao": "Canivete tático resistente com lâmina de alta qualidade"
+      },
+      {
+        "id": 3,
+        "nome": "Canivete XR-4 - Cabo de madeira",
+        "preco": "R$ 120,00",
+        "imagem": "/img/canivetes/xr4.png",
+        "descricao": "Canivete estilo vintage com acabamento em madeira nobre"
+      },
+      {
+        "id": 4,
+        "nome": "Canivete Premium Inox - Com Abridor",
+        "preco": "R$ 65,00",
+        "imagem": "/img/canivetes/abridor.png",
+        "descricao": "Mini canivete compacto ideal para chaveiro"
+      }
+    ],
+    "squeezes": [
+      {
+        "id": 1,
+        "nome": "Garra Térmica com Alça 1000ml",
+        "preco": "R$ 180,00",
+        "imagem": "/img/garrafas/alca.png",
+        "descricao": "Kit executivo com caneta, porta-cartão e acessórios personalizados"
+      },
+      {
+        "id": 2,
+        "nome": "Garra Térmica com Alça 650ml",
+        "preco": "R$ 220,00",
+        "imagem": "/img/garrafas/ml.png",
+        "descricao": "Kit completo para aventureiros com ferramentas essenciais"
+      },
+      {
+        "id": 3,
+        "nome": "Garrafa Térmica 500ml",
+        "preco": "R$ 350,00",
+        "imagem": "/img/garrafas/termica.png",
+        "descricao": "Kit gourmet premium com utensílios para gastronomia"
+      },
+      {
+        "id": 4,
+        "nome": "Garrafa Térmica com Vácuo 750ml",
+        "preco": "R$ 200,00",
+        "imagem": "/img/garrafas/vacuo.png",
+        "descricao": "Kit personalizado conforme suas necessidades específicas"
+      },
+      {
+        "id": 5,
+        "nome": "Kit Garrafa Térmica + 3 xícaras - 500ml",
+        "preco": "R$ 200,00",
+        "imagem": "/img/categories/kits.svg",
+        "descricao": "Kit personalizado conforme suas necessidades específicas"
+      },
+      {
+        "id": 6,
+        "nome": "Garrafa Térmica Esporte 450ml",
+        "preco": "R$ 200,00",
+        "imagem": "/img/garrafas/sport.png",
+        "descricao": "Kit personalizado conforme suas necessidades específicas"
+      },
+      {
+        "id": 7,
+        "nome": "Garrafa Térmica 400ml Com Display LED",
+        "preco": "R$ 200,00",
+        "imagem": "/img/garrafas/led.png",
+        "descricao": "Kit personalizado conforme suas necessidades específicas"
+      },
+      {
+        "id": 8,
+        "nome": "Squeeze Alumínio 650ml",
+        "preco": "R$ 200,00",
+        "imagem": "/img/garrafas/Aluminio.png",
+        "descricao": "Kit personalizado conforme suas necessidades específicas"
+      },
+      {
+        "id": 9,
+        "nome": "Squeeze Alumínio 500ml",
+        "preco": "R$ 200,00",
+        "imagem": "/img/garrafas/Aluminio2.png",
+        "descricao": "Kit personalizado conforme suas necessidades específicas"
+      }
+    ],
+    "mochila": [
+      {
+        "id": 1,
+        "nome": "Mochila Para Notebook",
+        "preco": "R$ 150,00",
+        "imagem": "/img/mochila/notebook.png",
+        "descricao": "Mochila executiva em couro sintético com compartimentos organizadores"
+      },
+      {
+        "id": 2,
+        "nome": "Mochila Para Notebook Premium",
+        "preco": "R$ 85,00",
+        "imagem": "/img/mochila/premium.png",
+        "descricao": "Mochila escolar resistente com personalização a laser"
+      },
+      {
+        "id": 3,
+        "nome": "Mochila Em Couro Sintético",
+        "preco": "R$ 120,00",
+        "imagem": "/img/mochila/couro.png",
+        "descricao": "Mochila esportiva com compartimento para tênis e garrafa"
+      }
+    ],
+    "queijos": [
+      {
+        "id": 1,
+        "nome": "Kit Queijo Redondo 5 peças",
+        "preco": "R$ 180,00",
+        "imagem": "/img/queijo/redondo.png",
+        "descricao": "Tábua premium em madeira nobre para servir queijos com personalização"
+      },
+      {
+        "id": 2,
+        "nome": "Kit Queijo 4 peças",
+        "preco": "R$ 95,00",
+        "imagem": "/img/queijo/pecas.png",
+        "descricao": "Kit completo com facas especiais para diferentes tipos de queijo"
+      },
+      {
+        "id": 3,
+        "nome": "Kit Queijo 5 peças",
+        "preco": "R$ 65,00",
+        "imagem": "/img/queijo/pecas2.png",
+        "descricao": "Cortador de queijo com fio de aço inox e base personalizada"
+      },
+      {
+        "id": 4,
+        "nome": "Kit Queijo 4 peças - Em Suporte Magnético de Bambu",
+        "preco": "R$ 45,00",
+        "imagem": "/img/queijo/magnetico.png",
+        "descricao": "Espátula especializada para queijos cremosos com gravação personalizada"
+      }
+    ],
+    "canecas": [
+      {
+        "id": 1,
+        "nome": "Caneca Premium 420ml",
+        "preco": "R$ 45,00",
+        "imagem": "/img/canecas/premium.png",
+        "descricao": "Caneca térmica em aço inox com personalização a laser"
+      },
+      {
+        "id": 2,
+        "nome": "Copo Parede Dupla 450ml",
+        "preco": "R$ 35,00",
+        "imagem": "/img/canecas/dupla.png",
+        "descricao": "Caneca que muda de cor com líquidos quentes, personalizada"
+      },
+      {
+        "id": 3,
+        "nome": "Caneca com Alça e tampa 420ml",
+        "preco": "R$ 55,00",
+        "imagem": "/img/canecas/alca.png",
+        "descricao": "Caneca de chopp em vidro com gravação personalizada"
+      },
+      {
+        "id": 4,
+        "nome": "Copo Termico 350ml",
+        "preco": "R$ 25,00",
+        "imagem": "/img/canecas/termico.png",
+        "descricao": "Caneca em acrílico cristal com impressão personalizada"
+      },
+      {
+        "id": 5,
+        "nome": "Copo Termico para mate 240ml",
+        "preco": "R$ 25,00",
+        "imagem": "/img/canecas/240ml.png",
+        "descricao": "Caneca em acrílico cristal com impressão personalizada"
+      },
+      {
+        "id": 6,
+        "nome": "Copo Termico 4x1 450ml",
+        "preco": "R$ 25,00",
+        "imagem": "/img/canecas/quatro.png",
+        "descricao": "Caneca em acrílico cristal com impressão personalizada"
+      },
+      {
+        "id": 7,
+        "nome": "Copo Térmico 500ml com Abridor",
+        "preco": "R$ 25,00",
+        "imagem": "/img/canecas/abridor.png",
+        "descricao": "Caneca em acrílico cristal com impressão personalizada"
+      },
+      {
+        "id": 8,
+        "nome": "Copo Inox 150ml",
+        "preco": "R$ 25,00",
+        "imagem": "/img/canecas/inox.png",
+        "descricao": "Caneca em acrílico cristal com impressão personalizada"
+      },
+      {
+        "id": 9,
+        "nome": "Copo Inox 320ml",
+        "preco": "R$ 25,00",
+        "imagem": "/img/canecas/inox2.png",
+        "descricao": "Caneca em acrílico cristal com impressão personalizada"
+      }
+    ],
+    "feminina": [
+      {
+        "id": 1,
+        "nome": "Porta-Joias",
+        "preco": "R$ 65,00",
+        "imagem": "/img/feminina/porta.png",
+        "descricao": "Necessaire em material sintético com personalização elegante"
+      },
+      {
+        "id": 2,
+        "nome": "Espelho de Bolsa",
+        "preco": "R$ 35,00",
+        "imagem": "/img/feminina/bolsa.png",
+        "descricao": "Espelho compacto de bolsa com gravação personalizada"
+      },
+      {
+        "id": 3,
+        "nome": "Espelho duplo com Aumento Plástico",
+        "preco": "R$ 85,00",
+        "imagem": "/img/feminina/plastico.png",
+        "descricao": "Kit completo para manicure com estojo personalizado"
+      },
+      {
+        "id": 4,
+        "nome": "Escova com espelho",
+        "preco": "R$ 95,00",
+        "imagem": "/img/feminina/escova.png",
+        "descricao": "Porta joias em veludo com compartimentos e personalização"
+      },
+      {
+        "id": 5,
+        "nome": "Espelho plástico sem Aumento",
+        "preco": "R$ 95,00",
+        "imagem": "/img/feminina/semaument.png",
+        "descricao": "Porta joias em veludo com compartimentos e personalização"
+      },
+      {
+        "id": 6,
+        "nome": "Kit Manicure 7 peças",
+        "preco": "R$ 95,00",
+        "imagem": "/img/feminina/7peças.png",
+        "descricao": "Porta joias em veludo com compartimentos e personalização"
+      },
+      {
+        "id": 7,
+        "nome": "Kit Manicure 6 peças",
+        "preco": "R$ 95,00",
+        "imagem": "/img/feminina/6peças.png",
+        "descricao": "Porta joias em veludo com compartimentos e personalização"
+      }
+    ],
+    "agenda": [
+      {
+        "id": 1,
+        "nome": "Agenda Premium SB - Com opçoes de Cores",
+        "preco": "R$ 120,00",
+        "imagem": "/img/agendas/premiumsb.png",
+        "descricao": "Agenda executiva em couro legítimo com gravação personalizada"
+      },
+      {
+        "id": 2,
+        "nome": "Kit Executivo - Com caixa",
+        "preco": "R$ 85,00",
+        "imagem": "/img/agendas/executivo.png",
+        "descricao": "Kit com canetas metálicas premium personalizadas"
+      },
+      {
+        "id": 3,
+        "nome": "Caderno MS",
+        "preco": "R$ 65,00",
+        "imagem": "/img/agendas/ms.png",
+        "descricao": "Caderno estilo moleskine com capa personalizada"
+      },
+      {
+        "id": 4,
+        "nome": "Caneta com Touch FN",
+        "preco": "R$ 45,00",
+        "imagem": "/img/agendas/fn.png",
+        "descricao": "Porta canetas de mesa em madeira com gravação personalizada"
+      },
+      {
+        "id": 5,
+        "nome": "Caneta EXT",
+        "preco": "R$ 45,00",
+        "imagem": "/img/agendas/ext.png",
+        "descricao": "Porta canetas de mesa em madeira com gravação personalizada"
+      }
+    ]
+  }
+}

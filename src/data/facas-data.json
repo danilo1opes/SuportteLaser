@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "facas-personalizadas",
+      "name": "Facas Personalizadas",
+      "image": "/images/categories/facas-icon.png"
+    }
+  ],
+  "products": {
+    "facas-personalizadas": [
+      {
+        "id": "faca-javali",
+        "nome": "Faca Javali",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/javali.png",
+        "descricao": "Faca artesanal para caça, com cabo em madeira nobre e lâmina forjada à mão."
+      },
+      {
+        "id": "faca-barretos",
+        "nome": "Faca Barretos",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/barretos.png",
+        "descricao": "Faca tradicional de Barretos, ideal para churrasco e atividades rurais."
+      },
+      {
+        "id": "faca-10ag",
+        "nome": "Faca 10AG",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/ag.png",
+        "descricao": "Conjunto de facas profissionais com lâminas de alta qualidade."
+      },
+      {
+        "id": "faca-pampa",
+        "nome": "Faca Pampa",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/pamp.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      }
+    ]
+  }
+}

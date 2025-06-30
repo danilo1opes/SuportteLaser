@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "id": "chapeus",
+      "name": "Chapéus",
+      "image": "/images/categories/chapeus-icon.png"
+    },
+    {
+      "id": "kits",
+      "name": "Kits",
+      "image": "/images/categories/kits-icon.png"
+    },
+    {
+      "id": "abridores",
+      "name": "Abridores",
+      "image": "/images/categories/abridores-icon.png"
+    },
+    {
+      "id": "chaveiros",
+      "name": "Chaveiros",
+      "image": "/images/categories/chaveiros-icon.png"
+    }
+  ],
+  "products": {
+    "chapeus": [
+      {
+        "id": "chapeu-fibra-bambu-1",
+        "nome": "Chapéu Fibra Bambu",
+        "preco": "R$ 160,00",
+        "imagem": "/images/chapeus/chapeu-fibra-bambu-1.jpg",
+        "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
+      },
+      {
+        "id": "chapeu-fibra-bambu-2",
+        "nome": "Chapéu Fibra Bambu",
+        "preco": "R$ 160,00",
+        "imagem": "/images/chapeus/chapeu-fibra-bambu-2.jpg",
+        "descricao": "Chapéu moderno em fibra de bambu com acabamento premium."
+      },
+      {
+        "id": "chapeu-fibra-1",
+        "nome": "Chapéu Fibra",
+        "preco": "R$ 160,00",
+        "imagem": "/images/chapeus/chapeu-fibra-1.jpg",
+        "descricao": "Chapéu em fibra natural, confortável e resistente."
+      },
+      {
+        "id": "chapeu-fibra-2",
+        "nome": "Chapéu Fibra",
+        "preco": "R$ 160,00",
+        "imagem": "/images/chapeus/chapeu-fibra-2.jpg",
+        "descricao": "Chapéu em fibra de alta qualidade com design clássico."
+      },
+      {
+        "id": "chapeu-fibra-3",
+        "nome": "Chapéu Fibra",
+        "preco": "R$ 160,00",
+        "imagem": "/images/chapeus/chapeu-fibra-3.jpg",
+        "descricao": "Chapéu artesanal em fibra natural com acabamento refinado."
+      },
+      {
+        "id": "chapeu-fibra-4",
+        "nome": "Chapéu Fibra",
+        "preco": "R$ 160,00",
+        "imagem": "/images/chapeus/chapeu-fibra-4.jpg",
+        "descricao": "Chapéu tradicional em fibra, perfeito para o dia a dia."
+      }
+    ]
+  }
+}
