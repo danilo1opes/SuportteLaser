@@ -32,10 +32,10 @@ export function Navbar() {
               Produtos
             </Link>
             <Link
-              href="#linha-feminina"
+              href="#catalogo"
               className="text-gray-800 hover:text-gray-900 text-base font-light transition-colors"
             >
-              Linha Feminina
+              Catalogo PDF
             </Link>
           </div>
 
@@ -59,18 +59,18 @@ export function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden mt-2 border-t border-gray-300">
             <Link
-              href="/produtos"
+              href="#produtos"
               className="block py-2 px-4 text-gray-800 hover:text-gray-900 text-base font-light"
               onClick={() => setIsMenuOpen(false)}
             >
               Produtos
             </Link>
             <Link
-              href="/linha-feminina"
+              href="#catalogo"
               className="block py-2 px-4 text-gray-800 hover:text-gray-900 text-base font-light"
               onClick={() => setIsMenuOpen(false)}
             >
-              Linha Feminina
+              Catalogo PDF
             </Link>
           </div>
         )}
