@@ -11,7 +11,6 @@ export function ProductsCategories() {
   const [activeCategory, setActiveCategory] = useState(null);
 
   const { categories, products } = productsData;
-
   const handleCategoryClick = (categoryId) => {
     if (activeCategory === categoryId) {
       setActiveCategory(null);
@@ -26,9 +25,9 @@ export function ProductsCategories() {
   };
 
   return (
-    <section className="bg-gray-50 py-16 lg:py-24">
+    <section id="linha-feminina" className="bg-gray-50 py-16 lg:py-24">
       <div className="container mx-auto px-6">
-         {/* Categories Grid */}
+        {/* Categories Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 lg:gap-8 mb-8">
           {categories.map((category) => (
             <button

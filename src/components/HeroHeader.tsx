@@ -21,7 +21,8 @@ export function HeroHeader() {
             Atacado, varejo e brindes
           </p>
           <Link
-            href="https://wa.me/5599999999999"
+            href="https://wa.me/5562992973765"
+            target="_blank"
             className="mt-6 inline-flex items-center gap-2 bg-black text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg hover:bg-gray-800 transition text-sm sm:text-base shadow-md"
           >
             <FaWhatsapp className="text-base sm:text-lg" />

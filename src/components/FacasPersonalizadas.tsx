@@ -33,7 +33,7 @@ export function FacasPersonalizadas() {
   };
 
   return (
-    <section className="bg-gray-100 py-16 lg:py-24">
+    <section id="produtos" className="bg-gray-100 py-16 lg:py-24">
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="flex items-center justify-between mb-12">
