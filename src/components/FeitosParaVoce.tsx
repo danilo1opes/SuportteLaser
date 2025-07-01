@@ -36,19 +36,19 @@ export function FeitosParaVoce() {
   };
 
   return (
-    <section className="bg-white py-16 lg:py-24">
-      <div className="container mx-auto px-6">
-        <div className="flex items-center justify-between mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
+    <section className="bg-white py-12 sm:py-14 md:py-16 lg:py-24">
+      <div className="container mx-auto px-4 sm:px-5 md:px-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6 mb-10 sm:mb-12">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">
             Feitos Para Você!!!
           </h2>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap justify-center sm:justify-end gap-2">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-6 py-3 rounded-lg font-medium text-sm transition-all duration-200 ${
+                className={`px-4 py-2 sm:px-5 sm:py-2.5 rounded-lg font-medium text-sm transition-all duration-200 ${
                   activeTab === tab.id
                     ? 'bg-black text-white'
                     : 'bg-white text-gray-700 border border-gray-300 hover:bg-gray-50'
@@ -60,13 +60,13 @@ export function FeitosParaVoce() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-8">
           {currentProducts.map((produto) => (
             <div
               key={produto.id}
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="aspect-square bg-gray-50 p-6">
+              <div className="aspect-square bg-gray-50 p-4 sm:p-6">
                 <Image
                   src={produto.imagem}
                   alt={produto.nome}
@@ -76,17 +76,17 @@ export function FeitosParaVoce() {
                 />
               </div>
 
-              <div className="p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <div className="p-4 sm:p-6">
+                <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">
                   {produto.nome}
                 </h3>
-                <p className="text-2xl font-bold text-gray-900 mb-4">
+                <p className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
                   {produto.preco}
                 </p>
 
                 <button
                   onClick={() => handleProductClick(produto)}
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-2.5 px-4 rounded-full font-medium text-sm flex items-center justify-center gap-2 transition-all duration-200 hover:shadow-md active:scale-95"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white py-2 sm:py-2.5 px-4 rounded-full font-medium text-sm flex items-center justify-center gap-2 transition-all duration-200 hover:shadow-md active:scale-95"
                 >
                   <FaWhatsapp className="w-4 h-4" />
                   Comprar Agora
