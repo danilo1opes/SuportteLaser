@@ -28,18 +28,7 @@ export function ProductsCategories() {
   return (
     <section className="bg-gray-50 py-16 lg:py-24">
       <div className="container mx-auto px-6">
-        {/* Section Header */}
-        <div className="text-center mb-12 lg:mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Nossas Categorias
-          </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Explore nossa ampla gama de produtos personalizados para todas as
-            ocasiões
-          </p>
-        </div>
-
-        {/* Categories Grid */}
+         {/* Categories Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6 lg:gap-8 mb-8">
           {categories.map((category) => (
             <button

@@ -9,8 +9,7 @@ export default function Footer() {
           {/* Logo e Slogan */}
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center mb-4">
-              <div className="w-8 h-8 border-2 border-amber-400 transform rotate-45 mr-3"></div>
-              <h2 className="text-xl font-bold">SUPORTE LASER</h2>
+              <h2 className="text-xl font-bold font-libre">SUPORTE LASER</h2>
             </div>
             <p className="text-gray-300 italic">
               {' '}

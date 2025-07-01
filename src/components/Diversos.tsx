@@ -14,7 +14,7 @@ export default function Diversos() {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Imagem principal */}
-        <div className="bg-[#D8DEE9] rounded-xl flex flex-col items-center justify-center p-6 text-center">
+        <div className="hidden md:bg-[#D8DEE9] md:rounded-xl md:flex md:flex-col md:items-center md:justify-center md:p-6 md:text-center">
           <Image
             src="/img/diversos/machado.svg"
             alt="Suporte Laser"
