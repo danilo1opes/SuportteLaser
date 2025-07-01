@@ -1,0 +1,56 @@
+{
+  "products": {
+    "diversos": {
+      "afiadores": [
+        {
+          "id": 1,
+          "nome": "Afiador Profissional",
+          "preco": "R$ 160,00",
+          "imagem": "/img/diversos/afiador1.svg"
+        },
+        {
+          "id": 2,
+          "nome": "Afiador Compacto",
+          "preco": "R$ 160,00",
+          "imagem": "/img/diversos/afiador2.svg"
+        }
+      ],
+      "baralhos": [
+        {
+          "id": 3,
+          "nome": "Baralho Personalizado Gold",
+          "preco": "R$ 160,00",
+          "imagem": "/img/diversos/baralhoGold.svg"
+        },
+        {
+          "id": 4,
+          "nome": "Baralho Personalizado Prata",
+          "preco": "R$ 150,00",
+          "imagem": "/img/diversos/baralhoPrata.svg"
+        }
+      ],
+      "machados": [
+        {
+          "id": 5,
+          "nome": "Machado Artesanal",
+          "preco": "R$ 160,00",
+          "imagem": "/img/diversos/MLight.svg"
+        },
+        {
+          "id": 6,
+          "nome": "Machado Artesanal",
+          "preco": "R$ 160,00",
+          "imagem": "/img/diversos/MLight2.svg"
+        }
+      ],
+      "tabua": [
+        {
+          "id": 7,
+          "nome": "Tábua",
+          "preco": "R$ 160,00",
+          "imagem": "/img/diversos/tabua.svg"
+        }
+      ]
+    }
+  }
+}

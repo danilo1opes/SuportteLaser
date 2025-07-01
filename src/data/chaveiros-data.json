@@ -1,0 +1,66 @@
+{
+  "products": {
+    "chaveiros": [
+      {
+        "id": 1,
+        "nome": "Chaveiro SB 10",
+        "preco": "R$ 25,00",
+        "imagem": "/img/chaveiros/sb10.png"
+      },
+      {
+        "id": 2,
+        "nome": "Chaveiro Metal Redondo",
+        "preco": "R$ 18,00",
+        "imagem": "/img/chaveiros/redondo.png"
+      },
+      {
+        "id": 3,
+        "nome": "Chaveiro Metal Abridor",
+        "preco": "R$ 32,00",
+        "imagem": "/img/chaveiros/abridor.png"
+      },
+      {
+        "id": 4,
+        "nome": "Chaveiro SB 08",
+        "preco": "R$ 28,00",
+        "imagem": "/img/chaveiros/sb08.png"
+      },
+      {
+        "id": 5,
+        "nome": "Chaveiro SB 07",
+        "preco": "R$ 22,00",
+        "imagem": "/img/chaveiros/sb07.png"
+      },
+      {
+        "id": 6,
+        "nome": "Chaveiro Metal com Nylon",
+        "preco": "R$ 30,00",
+        "imagem": "/img/chaveiros/nylon.png"
+      },
+      {
+        "id": 7,
+        "nome": "Chaveiro Metal Mosquetão",
+        "preco": "R$ 30,00",
+        "imagem": "/img/chaveiros/mosquetao.png"
+      },
+      {
+        "id": 8,
+        "nome": "Chaveiro SB 04",
+        "preco": "R$ 30,00",
+        "imagem": "/img/chaveiros/sb04.png"
+      },
+      {
+        "id": 9,
+        "nome": "Chaveiro SB 05",
+        "preco": "R$ 30,00",
+        "imagem": "/img/chaveiros/sb05.png"
+      },
+      {
+        "id": 10,
+        "nome": "Chaveiro SB 06",
+        "preco": "R$ 30,00",
+        "imagem": "/img/chaveiros/sb06.png"
+      }
+    ]
+  }
+}
