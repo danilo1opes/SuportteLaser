@@ -1,0 +1,30 @@
+{
+  "products": {
+    "kits": [
+      {
+        "id": 1,
+        "nome": "Kit Garfo Tridente + 6 Garfinhos Petisco Preto",
+        "preco": "R$ 250,00",
+        "imagem": "/img/kits/garfo.png"
+      },
+      {
+        "id": 2,
+        "nome": "Kit Garfo Tridente + 6 Garfinhos Petisco",
+        "preco": "R$ 180,00",
+        "imagem": "/img/kits/garfo2.png"
+      },
+      {
+        "id": 3,
+        "nome": "Garra de Urso com Suporte Rústico",
+        "preco": "R$ 220,00",
+        "imagem": "/img/kits/garra.png"
+      },
+      {
+        "id": 4,
+        "nome": "Garra de Urso com Suporte Rústico",
+        "preco": "R$ 300,00",
+        "imagem": "/img/kits/garra2.png"
+      }
+    ]
+  }
+}

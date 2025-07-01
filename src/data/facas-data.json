@@ -17,23 +17,86 @@
       },
       {
         "id": "faca-barretos",
-        "nome": "Faca Barretos",
+        "nome": "Faca Barretos 06",
         "preco": "R$ 160,00",
         "imagem": "/img/facas/barretos.png",
         "descricao": "Faca tradicional de Barretos, ideal para churrasco e atividades rurais."
       },
       {
         "id": "faca-10ag",
-        "nome": "Faca 10AG",
+        "nome": "Faca 10A 06G Osso",
         "preco": "R$ 160,00",
         "imagem": "/img/facas/ag.png",
         "descricao": "Conjunto de facas profissionais com lâminas de alta qualidade."
       },
       {
         "id": "faca-pampa",
-        "nome": "Faca Pampa",
+        "nome": "Faca 07A Pampa Cabo Preto C/Detalhes Branco",
         "preco": "R$ 160,00",
         "imagem": "/img/facas/pamp.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "estojo-08",
+        "nome": "Estojo 08A Osso",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/estojo08a.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "faca08",
+        "nome": "Faca 08 Osso com Bainha de Couro",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/facacouro.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "faca08g",
+        "nome": "Faca 08G Osso com Bainha de Couro",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/faca08g.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "faca06",
+        "nome": "Faca 06 Madeira com Bainha de Couro",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/faca08g.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "facaCouro",
+        "nome": "Faca 08 Madeira com Bainha de Couro",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/couro.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "estojo",
+        "nome": "Estojo 08G Osso",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/estojo.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "estojoM",
+        "nome": "Estojo 08G Madeira",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/estojoM.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "churras",
+        "nome": "Faca 09 Churrasco Cabo Único",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/churras.png",
+        "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
+      },
+      {
+        "id": "06",
+        "nome": "Faca 06 Osso com Bainha de Couro",
+        "preco": "R$ 160,00",
+        "imagem": "/img/facas/06.png",
         "descricao": "Faca gaucha tradicional, perfeita para uso profissional e doméstico."
       }
     ]
