@@ -5,21 +5,41 @@ import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { generateWhatsAppLink } from '@/lib/utils/whatsapp';
-import productsData from '@/data/products-data.json';
+import rawProductsData from '@/data/products-data.json';
+
+// Tipos
+type Categoria = {
+  id: string;
+  name: string;
+  image: string;
+};
+
+type Produto = {
+  id: string;
+  nome: string;
+  imagem: string;
+  preco: string;
+  descricao?: string;
+};
+
+type ProductsData = {
+  categories: Categoria[];
+  products: {
+    [categoryId: string]: Produto[];
+  };
+};
 
 export function ProductsCategories() {
-  const [activeCategory, setActiveCategory] = useState(null);
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
+  const productsData = rawProductsData as unknown as ProductsData;
   const { categories, products } = productsData;
-  const handleCategoryClick = (categoryId) => {
-    if (activeCategory === categoryId) {
-      setActiveCategory(null);
-    } else {
-      setActiveCategory(categoryId);
-    }
+
+  const handleCategoryClick = (categoryId: string) => {
+    setActiveCategory((prev) => (prev === categoryId ? null : categoryId));
   };
 
-  const handleProductClick = (produto) => {
+  const handleProductClick = (produto: Produto) => {
     const whatsappUrl = generateWhatsAppLink(produto);
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
@@ -42,7 +62,6 @@ export function ProductsCategories() {
                     : ''
                 }`}
               >
-                {/* Image Container */}
                 <div className="relative w-16 h-16 lg:w-20 lg:h-20 bg-gray-100 rounded-full p-3 lg:p-4 group-hover:bg-gray-200 transition-colors duration-300 group-hover:scale-110">
                   <Image
                     src={category.image}
@@ -52,12 +71,10 @@ export function ProductsCategories() {
                   />
                 </div>
 
-                {/* Category Name */}
                 <h3 className="text-sm lg:text-base font-semibold text-gray-900 text-center leading-tight group-hover:text-gray-700 transition-colors duration-300">
                   {category.name}
                 </h3>
 
-                {/* Expand/Collapse Icon */}
                 <div className="text-gray-400">
                   {activeCategory === category.id ? (
                     <ChevronUp className="w-4 h-4" />
@@ -86,14 +103,12 @@ export function ProductsCategories() {
               </button>
             </div>
 
-            {/* Products Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {products[activeCategory].map((produto) => (
                 <div
                   key={produto.id}
                   className="bg-gray-50 rounded-xl overflow-hidden hover:shadow-md transition-all duration-300 hover:-translate-y-1 group"
                 >
-                  {/* Product Image */}
                   <div className="aspect-square bg-gray-100 p-4 overflow-hidden">
                     <Image
                       src={produto.imagem}
@@ -104,7 +119,6 @@ export function ProductsCategories() {
                     />
                   </div>
 
-                  {/* Product Info */}
                   <div className="p-4">
                     <h4 className="text-base font-semibold text-gray-900 mb-2 line-clamp-2 min-h-[3rem]">
                       {produto.nome}
@@ -120,7 +134,6 @@ export function ProductsCategories() {
                       {produto.preco}
                     </p>
 
-                    {/* WhatsApp Button */}
                     <button
                       onClick={() => handleProductClick(produto)}
                       className="w-full bg-green-600 hover:bg-green-700 text-white py-2.5 px-4 rounded-full font-medium text-sm flex items-center justify-center gap-2 transition-all duration-200 hover:shadow-md active:scale-95"
