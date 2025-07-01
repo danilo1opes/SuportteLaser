@@ -26,13 +26,13 @@ export function Navbar() {
           {/* Menu Desktop */}
           <div className="hidden md:flex space-x-8 items-center">
             <Link
-              href="/produtos"
+              href="#produtos"
               className="text-gray-800 hover:text-gray-900 text-base font-light transition-colors"
             >
               Produtos
             </Link>
             <Link
-              href="/linha-feminina"
+              href="#linha-feminina"
               className="text-gray-800 hover:text-gray-900 text-base font-light transition-colors"
             >
               Linha Feminina
