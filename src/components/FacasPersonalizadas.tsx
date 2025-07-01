@@ -6,6 +6,14 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { generateWhatsAppLink } from '@/lib/utils/whatsapp';
 import facasData from '@/data/facas-data.json';
 
+type Produto = {
+  id: string;
+  nome: string;
+  imagem: string;
+  preco: string;
+  descricao?: string;
+};
+
 export function FacasPersonalizadas() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -27,7 +35,7 @@ export function FacasPersonalizadas() {
     (currentIndex + 1) * itemsPerPage
   );
 
-  const handleProductClick = (produto) => {
+  const handleProductClick = (produto: Produto) => {
     const url = generateWhatsAppLink(produto);
     window.open(url, '_blank');
   };
