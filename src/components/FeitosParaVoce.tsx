@@ -86,7 +86,7 @@ export function FeitosParaVoce() {
 
                 <button
                   onClick={() => handleProductClick(produto)}
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-2 sm:py-2.5 px-4 rounded-full font-medium text-sm flex items-center justify-center gap-2 transition-all duration-200 hover:shadow-md active:scale-95"
+                  className="w-full bg-brand-primary hover:bg-gray-800 text-white py-2 sm:py-2.5 px-4 rounded-full font-medium text-sm flex items-center justify-center gap-2 transition-all duration-200 hover:shadow-md active:scale-95"
                 >
                   <FaWhatsapp className="w-4 h-4" />
                   Comprar Agora
