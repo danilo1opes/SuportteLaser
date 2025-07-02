@@ -77,10 +77,10 @@ export function FeitosParaVoce() {
               </div>
 
               <div className="p-4 sm:p-6">
-                <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">
+                <h3 className="text-base sm:text-lg font-light tracking-wide font-nunito text-gray-900 mb-2">
                   {produto.nome}
                 </h3>
-                <p className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+                <p className="text-xl sm:text-2xl font-bold font-inter text-gray-900 mb-4">
                   {produto.preco}
                 </p>
 

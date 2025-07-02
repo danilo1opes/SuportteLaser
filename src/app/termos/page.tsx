@@ -53,7 +53,7 @@ export default function TermosPage() {
       </p>
 
       <p className="text-zinc-600 mt-8">
-        Última atualização: 01 de Julho de 2025
+        Última atualização: 02 de Julho de 2025
       </p>
     </section>
   );

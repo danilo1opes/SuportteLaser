@@ -9,15 +9,17 @@ export function HeroHeader() {
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-8 sm:gap-10">
         {/* Texto */}
         <div className="w-full lg:max-w-xl text-center lg:text-left">
-          <span className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase">
-            Suporte
+          <span className="text-xs sm:text-sm font-libre tracking-widest text-gray-400 uppercase">
+            Suportte
           </span>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mt-2">
+          <h1 className="text-3xl font-inter sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mt-2">
             Detalhes únicos.
             <br />
-            <span className="text-gray-800">Resultados inesquecíveis.</span>
+            <span className="text-gray-800 font-inter">
+              Resultados inesquecíveis.
+            </span>
           </h1>
-          <p className="text-base sm:text-lg text-gray-500 mt-4 max-w-md mx-auto lg:mx-0">
+          <p className="text-base sm:text-lg font-nunito tracking-widest font-light text-gray-500 mt-4 max-w-md mx-auto lg:mx-0">
             Atacado, varejo e brindes
           </p>
           <Link
