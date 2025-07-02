@@ -71,7 +71,7 @@ export function ProductsCategories() {
                   />
                 </div>
 
-                <h3 className="text-sm lg:text-base font-semibold text-gray-900 text-center leading-tight group-hover:text-gray-700 transition-colors duration-300">
+                <h3 className="text-sm lg:text-base font-semibold font-nunito text-gray-900 text-center leading-tight group-hover:text-gray-700 transition-colors duration-300">
                   {category.name}
                 </h3>
 

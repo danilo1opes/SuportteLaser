@@ -1,4 +1,3 @@
-// app/diversos/page.tsx
 import Image from 'next/image';
 import diversosData from '@/data/diversos-data.json';
 
@@ -20,12 +19,12 @@ export default function Diversos() {
             alt="Suporte Laser"
             width={500}
             height={500}
-            className="mx-auto scale-125" // Aumenta a imagem sem mexer no container
+            className="mx-auto scale-125"
           />
-          <h2 className="text-xl font-bold text-zinc-900 mt-6">
+          <h2 className="text-xl lg:text-4xl font-bold text-zinc-900 mt-6">
             SUPORTTE LASER
           </h2>
-          <p className="text-zinc-700 text-sm mt-2">
+          <p className="text-zinc-700 text-sm tracking-widest mt-2">
             Seu estilo, gravado no metal, <br />
             com detalhes que marcam!!
           </p>
@@ -82,8 +81,12 @@ type Props = {
 function CategoryCard({ title, subtitle, items }: Props) {
   return (
     <div className="bg-white rounded-xl shadow-md p-4 text-center">
-      <h3 className="font-semibold text-lg text-zinc-900">{title}</h3>
-      <p className="text-sm text-zinc-600">{subtitle}</p>
+      <h3 className="font-semibold font-inter tracking-widest text-lg text-zinc-900">
+        {title}
+      </h3>
+      <p className="text-sm text-zinc-600 tracking-widest font-nunito">
+        {subtitle}
+      </p>
       <div className="flex justify-center items-center gap-4 mt-4">
         {items.map((item) => (
           <div key={item.id} className="text-center">
@@ -94,7 +97,9 @@ function CategoryCard({ title, subtitle, items }: Props) {
               height={100}
               className="rounded"
             />
-            <p className="text-sm text-zinc-800 mt-2">{item.preco}</p>
+            <p className="text-sm font-inter text-zinc-800 font-semibold mt-2">
+              {item.preco}
+            </p>
           </div>
         ))}
       </div>
