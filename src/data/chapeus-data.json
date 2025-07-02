@@ -17,28 +17,28 @@
       },
       {
         "id": "bambu3",
-        "nome": "Chapéu Fibra de Bambu Rosa",
+        "nome": "Chapéu Fibra de Bambu 01",
         "preco": "R$ 160,00",
         "imagem": "/img/chapeus/bambu3.png",
         "descricao": "Chapéu em fibra natural, confortável e resistente."
       },
       {
         "id": "bambu4",
-        "nome": "Chapéu Fibra de Bambu Preto 01",
+        "nome": "Chapéu Fibra de Bambu 02",
         "preco": "R$ 160,00",
         "imagem": "/img/chapeus/bambu4.png",
         "descricao": "Chapéu em fibra de alta qualidade com design clássico."
       },
       {
         "id": "bambu5",
-        "nome": "Chapéu Fibra de Bambu Verde",
+        "nome": "Chapéu Fibra de Bambu 03",
         "preco": "R$ 160,00",
         "imagem": "/img/chapeus/bambu5.png",
         "descricao": "Chapéu artesanal em fibra natural com acabamento refinado."
       },
       {
         "id": "bambu6",
-        "nome": "Chapéu Fibra de Bambu",
+        "nome": "Chapéu Fibra de Bambu 04",
         "preco": "R$ 160,00",
         "imagem": "/img/chapeus/bambu6.png",
         "descricao": "Chapéu tradicional em fibra, perfeito para o dia a dia."

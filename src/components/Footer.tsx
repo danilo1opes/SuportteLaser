@@ -3,7 +3,7 @@ import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer id="catalogo" className="bg-slate-800 text-white">
+    <footer className="bg-slate-800 text-white">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo e Slogan */}

@@ -32,10 +32,11 @@ export function Navbar() {
               Produtos
             </Link>
             <Link
-              href="#catalogo"
+              href="/pdf/Catalogo.pdf"
+              target="_blank"
               className="text-gray-800 hover:text-gray-900 text-base font-light transition-colors"
             >
-              Catalogo PDF
+              Catálogo PDF
             </Link>
           </div>
 
@@ -66,11 +67,12 @@ export function Navbar() {
               Produtos
             </Link>
             <Link
-              href="#catalogo"
+              href="/pdf/Catalogo.pdf"
+              target="_blank"
               className="block py-2 px-4 text-gray-800 hover:text-gray-900 text-base font-light"
               onClick={() => setIsMenuOpen(false)}
             >
-              Catalogo PDF
+              Catálogo PDF
             </Link>
           </div>
         )}
