@@ -4,48 +4,48 @@
       {
         "id": "1",
         "nome": "Chaveiro SB 10",
-        "preco": "R$ 25,00",
+        "preco": "R$ 17,00",
         "imagem": "/img/chaveiros/sb10.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "2",
         "nome": "Chaveiro Metal Redondo",
-        "preco": "R$ 18,00",
+        "preco": "R$ 11,00",
         "imagem": "/img/chaveiros/redondo.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "3",
         "nome": "Chaveiro Metal Abridor",
-        "preco": "R$ 32,00",
+        "preco": "R$ 3,90",
         "imagem": "/img/chaveiros/abridor.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "4",
         "nome": "Chaveiro SB 08",
-        "preco": "R$ 28,00",
+        "preco": "R$ 18,00",
         "imagem": "/img/chaveiros/sb08.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "5",
         "nome": "Chaveiro SB 07",
-        "preco": "R$ 22,00",
+        "preco": "R$ 16,00",
         "imagem": "/img/chaveiros/sb07.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "6",
         "nome": "Chaveiro Metal com Nylon",
-        "preco": "R$ 30,00",
+        "preco": "R$ 9,80",
         "imagem": "/img/chaveiros/nylon.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "7",
-        "nome": "Chaveiro Metal Mosquetão",
+        "nome": "Chaveiro Metal Honda",
         "preco": "R$ 30,00",
         "imagem": "/img/chaveiros/mosquetao.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
@@ -53,21 +53,21 @@
       {
         "id": "8",
         "nome": "Chaveiro SB 04",
-        "preco": "R$ 30,00",
+        "preco": "R$ 14,00",
         "imagem": "/img/chaveiros/sb04.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "9",
         "nome": "Chaveiro SB 05",
-        "preco": "R$ 30,00",
+        "preco": "R$ 16,00",
         "imagem": "/img/chaveiros/sb05.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "10",
         "nome": "Chaveiro SB 06",
-        "preco": "R$ 30,00",
+        "preco": "R$ 19,00",
         "imagem": "/img/chaveiros/sb06.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       }

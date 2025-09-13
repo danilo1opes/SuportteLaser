@@ -4,21 +4,21 @@
       {
         "id": "1",
         "nome": "Abridor De Garrafa 55x85x2MM",
-        "preco": "R$ 45,00",
+        "preco": "R$ 15,00",
         "imagem": "/img/abridores/55.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "2",
         "nome": "Abridor De Garrafas Automático Magnético",
-        "preco": "R$ 38,00",
+        "preco": "R$ 25,00",
         "imagem": "/img/abridores/magnetico.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       },
       {
         "id": "3",
         "nome": "Abridor De Garrafa Ponto 50 Gold",
-        "preco": "R$ 52,00",
+        "preco": "R$ 45,00",
         "imagem": "/img/abridores/gold.png",
         "descricao": "Chapéu elegante em fibra de bambu, ideal para eventos ao ar livre."
       }

@@ -25,8 +25,7 @@ export default function Diversos() {
             SUPORTTE LASER
           </h2>
           <p className="text-zinc-700 text-sm tracking-widest mt-2">
-            Seu estilo, gravado no metal, <br />
-            com detalhes que marcam!!
+            Brindes e presentes especiais...
           </p>
         </div>
 
