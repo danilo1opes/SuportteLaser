@@ -35,6 +35,8 @@ export function FacasPersonalizadas() {
     (currentIndex + 1) * itemsPerPage
   );
 
+  //Nao possui Faca 06A, trocar estojo e colocar em churrasco 08 dois ultimos
+
   const handleProductClick = (produto: Produto) => {
     const url = generateWhatsAppLink(produto);
     window.open(url, '_blank');
